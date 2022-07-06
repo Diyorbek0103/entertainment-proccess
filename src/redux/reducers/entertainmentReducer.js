@@ -5,7 +5,8 @@ const initialState = {
     loading:false,
 }
 
-export const entertainmentReducer = (state = initialState, { type, payload }) => {
+export const entertainmentReducer = (state = initialState,action) => {
+  const {type,payload}=action
   switch (type) {
 
   case LOADING_TRUE:
