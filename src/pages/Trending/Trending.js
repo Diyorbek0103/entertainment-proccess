@@ -5,7 +5,7 @@ export const Trending = () => {
 const {loading}=useSelector(state=>state.entertainmentReducer);
 const dispatch=useDispatch();
 const Loading=()=>{
-  dispatch(LoadingTrue)
+  dispatch(LoadingTrue())
 }
   return (
     <div>

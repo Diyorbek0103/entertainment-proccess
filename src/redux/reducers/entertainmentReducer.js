@@ -10,7 +10,7 @@ export const entertainmentReducer = (state = initialState,action) => {
   switch (type) {
 
   case LOADING_TRUE:
-    return { ...state,loading:true }
+    return { ...state,loading:payload }
 case LOADING_FALSE:
     return{...state,loading:false}
   default:
