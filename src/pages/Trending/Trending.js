@@ -12,7 +12,9 @@ const Trending = () => {
     const {trending, trendingNumberOfPages} = useSelector(state=> state.entertainment);
 
     useEffect(()=>{
+        
       dispatch(getTrending(page))
+
     },[page]);
 
     return (

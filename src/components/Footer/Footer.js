@@ -25,6 +25,7 @@ export default function Footer() {
         <div className="footer">
 
             <BottomNavigation
+            
                 showLabels
                 value={value}
                 onChange={(event, newValue) => {

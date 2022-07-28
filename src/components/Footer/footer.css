@@ -1,3 +1,6 @@
 .Mui-selected{
     background-color: #272f3e !important;
 }
+.MuiBottomNavigation-root {
+    z-index: 1;
+}
